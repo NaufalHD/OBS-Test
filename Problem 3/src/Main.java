@@ -19,54 +19,30 @@ public class Main {
     }
 
     static void addDatabase(List<Map<String, Object>> sourceA, List<Map<String, Object>> sourceB){
-        Map<String, Object> a1 = new HashMap<String, Object>();
-        a1.put("id",1);
-        a1.put("name","Apple");
-        a1.put("price",5200);
-        sourceA.add(a1);
-
-        Map<String, Object> a2 = new HashMap<String, Object>();
-        a2.put("id",2);
-        a2.put("name","Jeruk");
-        a2.put("price",3200);
-        sourceA.add(a2);
-
-        Map<String, Object> a3 = new HashMap<String, Object>();
-        a3.put("id",3);
-        a3.put("name",null);
-        a3.put("price",210);
-        sourceA.add(a3);
-
-        Map<String, Object> a4 = new HashMap<String, Object>();
-        a4.put("id",7);
-        a4.put("name","PISANG");
-        a4.put("price",8290);
-        sourceA.add(a4);
+//        Map<String, Object> a1 = new HashMap<String, Object>();
+//        a1.put("id",1);
+//        a1.put("name","Apple");
+//        a1.put("price",5200);
+//        sourceA.add(a1);
+//
+//        Map<String, Object> a2 = new HashMap<String, Object>();
+//        a2.put("id",2);
+//        a2.put("name","Jeruk");
+//        a2.put("price",3200);
+//        sourceA.add(a2);
 
         //sourceB
-        Map<String, Object> b1 = new HashMap<String, Object>();
-        b1.put("id",3);
-        b1.put("stock",32);
-        b1.put("warehouse","WH1");
-        sourceB.add(b1);
-
-        Map<String, Object> b2 = new HashMap<String, Object>();
-        b2.put("id",1);
-        b2.put("stock",44);
-        b2.put("warehouse","WH9");
-        sourceB.add(b2);
-
-        Map<String, Object> b3 = new HashMap<String, Object>();
-        b3.put("id",2);
-        b3.put("stock",111);
-        b3.put("warehouse", null);
-        sourceB.add(b3);
-
-        Map<String, Object> b4 = new HashMap<String, Object>();
-        b4.put("id",44);
-        b4.put("stock",35);
-        b4.put("lokasi","Amerika");
-        sourceB.add(b4);
+//        Map<String, Object> b1 = new HashMap<String, Object>();
+//        b1.put("id",3);
+//        b1.put("stock",32);
+//        b1.put("warehouse","WH1");
+//        sourceB.add(b1);
+//
+//        Map<String, Object> b2 = new HashMap<String, Object>();
+//        b2.put("id",1);
+//        b2.put("stock",44);
+//        b2.put("warehouse","WH9");
+//        sourceB.add(b2);
     }
 
     static List<Map<String, Object>> mergeData(

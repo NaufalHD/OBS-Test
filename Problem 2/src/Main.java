@@ -100,13 +100,11 @@ class FilterEngine{
 public class Main {
     public static void main(String[] args) {
         List<Product> productList = new ArrayList<Product>();
+//        productList.add(new Product(1,"Laptop acer",1500,null));
+//        productList.add(new Product(2,"Headset BIRU",28700,null));
+//        productList.add(new Product(3,"Baterai Kayu",800,null));
 
-        productList.add(new Product(1,"Laptop acer",1500,null));
-        productList.add(new Product(2,"Headset BIRU",28700,null));
-        productList.add(new Product(3,"Baterai Kayu",800,null));
-
-        Criteria filterCriteria = new Criteria(1400,4000,null);
-        System.out.println("minPris: " + filterCriteria.minPrice);
+//        Criteria filterCriteria = new Criteria(1400,4000,null);
 
         List<Product> filteredProduct = FilterEngine.filter(productList,filterCriteria);
 
