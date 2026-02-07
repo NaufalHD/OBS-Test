@@ -1,8 +1,8 @@
 Muhammad Naufal Habibie Dwihar
 Java Developer
 
--PROBLEM 1-
-*thought process
+-PROBLEM 1-  
+*thought process  
 
 *how to run 
 -build the category inside the main method like shown below. repeat for each objects initialization and addition into the list.
