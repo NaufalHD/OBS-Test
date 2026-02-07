@@ -56,31 +56,19 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
-        Category a = new Category(1,"Electronics",null);
-        Category b = new Category(2,"Laptops",1);
-        Category zzz = new Category(2,"laptopzzz",1);
-        Category c = new Category(3,"PC",1);
-        Category d = new Category(4,"MacBook",2);
-        Category e = new Category(5,"Fashion",6);
-        Category ff = new Category(6,"FashionCircular",5);
+//        Category a = new Category(1,"Electronics",null);
+//        Category b = new Category(2,"Laptops",1);
 
         LinkedList<Category> flatData = new LinkedList<Category>();
-        flatData.add(a);
-        flatData.add(b);
-        flatData.add(zzz);
-        flatData.add(c);
-        flatData.add(d);
-        flatData.add(e);
-//        flatData.add(ff);
-
+//        flatData.add(a);
+//        flatData.add(b);
 
         Map<Integer, Category> treeData = new HashMap<Integer, Category>();
 
         Iterator<Category> it = flatData.iterator();
         while (it.hasNext()){
             Category cat = it.next();
-            //percobaan tambahan anti dobel data, ambil data pertama dan beri notif
+            //percobaan tambahan anti dobel id, ambil data pertama and shows notif on CLI display
             if(treeData.containsKey(cat.id)){
                 System.out.println("Duplicated ID warning!! ID: " + cat.id + " already existed.");
                 System.out.println("This data row bypassed and deleted.");
@@ -98,7 +86,7 @@ public class Main {
         List<Category> roots = new ArrayList<>();
         for (Category kb : flatData) {
             if (kb.parentId == null) {
-                roots.add(kb); // root category
+                roots.add(kb); // root category, hanya root saja yang masuk arrayList
             } else {
                 Category parent = treeData.get(kb.parentId);
                 if (parent != null) {
@@ -107,7 +95,7 @@ public class Main {
             }
         }
 
-        // Step 3: Print all root categories recursively
+        // print
         for (Category root : roots) {
             printCategory(root, 0);
         }
