@@ -1,5 +1,5 @@
 Muhammad Naufal Habibie Dwihar
-Java Developer
+<br>Java Developer
 
 *Personal notes/journal<br>
 At first, i've spent 2-3 days just to explore and remind my memories on java programming. Also build my confidence again because it's probably been 5+ years since my last interaction with java environment. Get familiar again with concept of Class, Object, Data structures (Array, List, Map), etc. Utilizing ChatGPT A LOT to understand each concept piece by piece, such asking directly how this specific syntax is works, what are the use of this concept, why use arraylist instead of linkedlist (when I thought linkedlist is the most ideal way because it can add or remove nodes directly in the middle, but i learned that it's not necessary in real-industry scenario and also it uses a lot of CPU power). So much things I've learned, tried to understand to, all of this on the whole 4 days of exploring and doing this project. It really helps to clear the mental fog & mental block while starting on this project
