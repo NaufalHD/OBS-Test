@@ -30,13 +30,16 @@ At first, i've spent 2-3 days just to explore and remind my memories on java pro
 		
 -run Main.java
 
--PROBLEM 2-  
-*thought process  
+<h3>-PROBLEM 2-</h3>  
+<h4>thought process</h4> 
+<p>
 
-*how to run 
--In the main method under productList initialization, create the product like shown below
--criteria filter is already written. Adjust the filter/criteria by changing the filterCriteria parameter (minPrice, maxPrice, Category)
--example shown below        
+</p> 
+
+<h4>how to run </h4>
+-In the main method under productList initialization, create the product like shown below<br>
+-criteria filter is already written. Adjust the filter/criteria by changing the filterCriteria parameter (minPrice, maxPrice, Category)<br>
+-example shown below<br>        
 
 		List<Product> productList = new ArrayList<Product>();
         productList.add(new Product(1,"Laptop acer",1500,null));
