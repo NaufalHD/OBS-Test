@@ -56,12 +56,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-//        Category a = new Category(1,"Electronics",null);
-//        Category b = new Category(2,"Laptops",1);
-
         LinkedList<Category> flatData = new LinkedList<Category>();
+//        Category a = new Category(1,"Electronics",null);
 //        flatData.add(a);
-//        flatData.add(b);
 
         Map<Integer, Category> treeData = new HashMap<Integer, Category>();
 
