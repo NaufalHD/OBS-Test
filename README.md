@@ -17,9 +17,10 @@ At first, i've spent 2-3 days just to explore and remind my memories on java pro
 -The decision is to delete duplication because that flat list is going to be use again later for the assigning process<br>
 -For the cycle detection, is applied before the parent-child assigning process. It works by comparing between the flatList and its hashmap conversion. To detect any cycle, it works by iterating through data on flatList and keeping track (remembering) of visited data's id on a map of hashSet named "visited"<br> 
 -<b>"Visit a data, remember/record the id value and add it to "visited" (hashSet), go to this data's parent via parentID, set it as current position. In this current position, check whether the id of this data is already existed inside "visited". If true, throw error. Else, repeat the process (going to current data's parent via parentID) until it reach the root (data with null parentID)"</b><br>
--Now 
+-If it passed cycle detection test, begin parent-child assignment. The 3rd list named "roots" (ArrayList) is used here for the finished category tree. Works by loop through the flatlist, check its parentID. If parentID = null, then we know its a root category and only will be added to "roots". If it has parentID, go to its parent data on the 2nd list (HashMap) and set this current data as  this parent data child (parent.children.add())<br>
+-After assigning process finished, print the 3rd list "roots" using recursion concept<br>
 </p>
-*how to run 
+<h4>how to run</h4> 
 -build the category inside the main method, after flatData list initialization. Shown below. Repeat for each objects initialization and addition to the flatData (flat list). Parameters are (Integer id, String "name", Integer parentsID)
         
 		LinkedList<Category> flatData = new LinkedList<Category>();
