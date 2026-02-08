@@ -6,6 +6,7 @@ At first, i've spent 2-3 days just to explore and remind my memories on java pro
 
 -PROBLEM 1-  
 *thought process 
+
 -Initially i didn't understand or get the idea of how the structures of the program was supposed to look like. Is there any other class other than Main Class? Is this involves the concept of objects? How the data gonna be stored and processed? Is the whole test (problem 1, 2, 3) doable with just using CLI or its gonna need a UI and separate DBMS? The mental fog was strong. Spending 2-3 days to grasp the concept slowly, how to ACTUALLY complete this project (What to expect, where to start, where to explore, etc). What is flat list, what is tree, how to use Object in java, how to create a tree utilizing Object (I have no idea at all / forgotten it if i ever learned it in college). And much more thing
 -Figured out how the data might look like. I even thought that user has to input one by one on the CLI.
 -Exploring on how to create (initialize) a single object, how the output might look like (I dont know yet how to print a tree on CLI. I dont know if  it's possible)
