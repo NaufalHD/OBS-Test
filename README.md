@@ -5,7 +5,7 @@ Muhammad Naufal Habibie Dwihar
 At first, i've spent 2-3 days just to explore and remind my memories on java programming. Also build my confidence again because it's probably been 5+ years since my last interaction with java environment. Get familiar again with concept of Class, Object, Data structures (Array, List, Map), etc. Utilizing ChatGPT A LOT to understand each concept piece by piece, such asking directly how this specific syntax is works, what are the use of this concept, why use arraylist instead of linkedlist (when I thought linkedlist is the most ideal way because it can add or remove nodes directly in the middle, but i learned that it's not necessary in real-industry scenario and also it uses a lot of CPU power). So much things I've learned, tried to understand to, all of this on the whole 4 days of exploring and doing this project. It really helps to clear the mental fog & mental block while starting on this project
 
 <h3>-PROBLEM 1-</h3>  
-*thought process 
+<h4>thought process</h4>
 <br>
 <p>
 -Initially i didn't understand or get the idea of how the structures of the program was supposed to look like. Is there any other class other than Main Class? Is this involves the concept of objects? How the data gonna be stored and processed? Is the whole test (problem 1, 2, 3) doable with just using CLI or its gonna need a UI and separate DBMS? The mental fog was strong. Spending 2-3 days to grasp the concept slowly, how to ACTUALLY complete this project (What to expect, where to start, where to explore, etc). What is flat list, what is tree, how to use Object in java, how to create a tree utilizing Object (I have no idea at all / forgotten it if i ever learned it in college). And much more thing<br>
